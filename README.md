@@ -7,5 +7,5 @@ PyTorch 1.11.0
 Python 3.8 (Ubuntn 20.04) 
 Cuda 11.3
 Scikit_learn == 0.24.1
-pandas == 1.2.0
+Pandas == 1.2.0
 RTX3090/RTX3080Ti
