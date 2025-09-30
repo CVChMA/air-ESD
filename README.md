@@ -11,3 +11,14 @@ Cuda 11.3
 Scikit_learn == 0.24.1
 Pandas == 1.2.0
 RTX3090/RTX3080Ti
+### How to set up an Anaconda environment
+```
+apt update
+apt install wget
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
+source ~/.bashrc
+eval "$(/root/miniconda3/bin/conda shell.bash hook)"
+conda create --name yourname python=3.8
+conda activate yourname
+```
